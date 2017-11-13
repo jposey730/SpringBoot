@@ -34,6 +34,7 @@ public class TopicService {
 //	}
 	//allows you to add a team
 	public void addTeam(Types ty) {
+		
 		teams.add(ty);
 		
 	}

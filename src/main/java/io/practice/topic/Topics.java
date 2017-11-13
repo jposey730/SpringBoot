@@ -33,9 +33,9 @@ public class Topics {
 //	public Types getTopic2(@PathVariable String description) {
 //		return ts.getTopic2(description);
 //	}
-	@RequestMapping(method=RequestMethod.POST, value="/topics")
+	@RequestMapping(method=RequestMethod.POST, value="/teams")
 	public void addTopic(@RequestBody Types ty) {
-		ts.addTopic(ty);
+		ts.addTeam(ty);
 		
 		
 	}

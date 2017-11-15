@@ -1,1 +1,2 @@
-A couple added methods. Now, if you want to do a POST (and add a new team) you can do this by using Postman addon.  Must set the post type as JSON.
+This is a very basic REST api that I created using Spring Boot.  I am currently extending it so the data is not hard coded but 
+fetched from a DB.

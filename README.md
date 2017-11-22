@@ -1,2 +1,2 @@
-This is a very basic REST api that I created using Spring Boot.  I am currently extending it so the data is not hard coded but 
-fetched from a DB. If you want to do a simple GET method just run it and access localhost:8080/teams.  For the other methods (POST, PUT and DELETE) you can use postman (addon for chrome).
+This was a project that I did for fun in order to gain a better understanding of the framework.  The project is a RESTful api that has some sample entities hard-coded for convenience only (I know it’s bad practice).  You can run your basic request methods (GET, PUT, POST, DELETE) on the dummy data to manipulate existing entities or create new ones.  This app is better tested using Postman.  I also have a version of this project with an embedded Derby database instead of using hard-coded data.
+
